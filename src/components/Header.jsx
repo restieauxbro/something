@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "../index.scss";
 import "../styles/header.scss";
 import { gsap, power3 } from "gsap/dist/gsap";
 
 function Header() {
-  const [isShown, setIsShown] = useState(false);
-
   useEffect(() => {
     console.log("hello");
 
