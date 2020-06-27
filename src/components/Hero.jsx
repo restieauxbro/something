@@ -21,7 +21,7 @@ function Hero() {
 
     parralax.to(image, {
       scrollTrigger: {
-        trigger: hero,
+        trigger: image,
         start: "top top",
         scrub: true,
       },
@@ -42,7 +42,7 @@ function Hero() {
     <div ref={(el) => (hero = el)} className="hero">
       <section className="hero-text flex end margin">
         <h1 ref={(el) => (title = el)} className="glow">
-          Vlademir <br /> Lenin
+          Vladimir <br /> Lenin
         </h1>
         <div className="description">
           <p>
