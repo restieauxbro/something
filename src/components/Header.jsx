@@ -14,13 +14,13 @@ function Header() {
     });
 
     tl.from(".list li", { opacity: 0, y: 20, stagger: 0.2 });
-    tl.from("hr", { opacity: 0, scaleX: 0, duration: 1, ease: power3 }, '-=.5',);
+    tl.from("hr", { opacity: 0, scaleX: 0, duration: 1, ease: power3 }, "-=.5");
   });
 
   return (
     <div className="header-container">
       <div className="flex margin header">
-        <h3>Marxists.org</h3>
+        <h3>Marxists.org okay</h3>
         <div className="nav">
           <ul className="list">
             <li>Library</li>
